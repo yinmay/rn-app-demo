@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "auth0-js": "^9.2.2",
     "babel-eslint": "^8.2.1",
     "eslint": "^4.17.0",
     "eslint-plugin-react": "^7.6.1",
