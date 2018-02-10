@@ -11,9 +11,8 @@ export default class DealItem extends Component {
       const {deal} = this.props
     return (
       <View style={styles.deal}>
-          <Image source={{uri:deal.media[0]}} style={styles.image} 
-            style={styles.image}
-          />
+          <Image source={{uri:deal.media[0]}}
+            style={styles.image}/>
           <View style={styles.info}>
             <Text style={styles.title}>{deal.title}</Text>
             
@@ -51,7 +50,7 @@ const styles=StyleSheet.create({
     title:{
         fontSize:16,
         fontWeight:'bold',
-        marginBottom:'row',
+        marginBottom:5,
     },
     footer:{
         flexDirection:'row'

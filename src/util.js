@@ -1,4 +1,4 @@
 export const priceDisplay=(priceInCents)=>{
-    return `${priceInCents/100}`
+    return `$${priceInCents/100}`
 
 }
